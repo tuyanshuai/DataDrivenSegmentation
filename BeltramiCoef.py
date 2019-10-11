@@ -7,7 +7,6 @@ from package_functions import MeshOperator
 
 
 def mu_metric(v, f, mapping, dimension):
-    s = MeshOperator.f2v(v, f)
     v = np.array(v)
     f = np.array(f)
     mapping = np.array(mapping)
